@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD08E72916D107BE00CE422F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08E72816D107BE00CE422F /* UIKit.framework */; };
+		BD08E72B16D107BE00CE422F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08E72A16D107BE00CE422F /* Foundation.framework */; };
+		BD08E72D16D107BE00CE422F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08E72C16D107BE00CE422F /* CoreGraphics.framework */; };
+		BD08E73316D107BE00CE422F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD08E73116D107BE00CE422F /* InfoPlist.strings */; };
+		BD08E73516D107BE00CE422F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08E73416D107BE00CE422F /* main.m */; };
+		BD08E73916D107BE00CE422F /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08E73816D107BE00CE422F /* SMAppDelegate.m */; };
+		BD08E73B16D107BE00CE422F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD08E73A16D107BE00CE422F /* Default.png */; };
+		BD08E73D16D107BE00CE422F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD08E73C16D107BE00CE422F /* Default@2x.png */; };
+		BD08E73F16D107BE00CE422F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD08E73E16D107BE00CE422F /* Default-568h@2x.png */; };
+		BD08E74216D107BE00CE422F /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08E74116D107BE00CE422F /* SMViewController.m */; };
+		BD08E74516D107BE00CE422F /* SMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD08E74316D107BE00CE422F /* SMViewController.xib */; };
+		BD08E7B716D118C300CE422F /* SMWebEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08E7B616D118C300CE422F /* SMWebEngine.m */; };
+		F906BD9D1AA12CD0000E0AC2 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BD991AA12CD0000E0AC2 /* HockeySDK.framework */; };
+		F906BD9E1AA12CD0000E0AC2 /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F906BD9B1AA12CD0000E0AC2 /* HockeySDK.xcconfig */; };
+		F906BD9F1AA12CD0000E0AC2 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F906BD9C1AA12CD0000E0AC2 /* HockeySDKResources.bundle */; };
+		F906BDA11AA12D37000E0AC2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDA01AA12D37000E0AC2 /* AssetsLibrary.framework */; };
+		F906BDA31AA12D47000E0AC2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDA21AA12D47000E0AC2 /* CoreText.framework */; };
+		F906BDA51AA12D4F000E0AC2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDA41AA12D4F000E0AC2 /* MobileCoreServices.framework */; };
+		F906BDA71AA12D57000E0AC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDA61AA12D57000E0AC2 /* QuartzCore.framework */; };
+		F906BDA91AA12D5D000E0AC2 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDA81AA12D5D000E0AC2 /* QuickLook.framework */; };
+		F906BDAB1AA12D63000E0AC2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDAA1AA12D63000E0AC2 /* Security.framework */; };
+		F906BDAD1AA12D6B000E0AC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906BDAC1AA12D6B000E0AC2 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD08E72516D107BE00CE422F /* crashy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crashy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08E72816D107BE00CE422F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD08E72A16D107BE00CE422F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD08E72C16D107BE00CE422F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD08E73016D107BE00CE422F /* crashy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "crashy-Info.plist"; sourceTree = "<group>"; };
+		BD08E73216D107BE00CE422F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD08E73416D107BE00CE422F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD08E73616D107BE00CE422F /* crashy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crashy-Prefix.pch"; sourceTree = "<group>"; };
+		BD08E73716D107BE00CE422F /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		BD08E73816D107BE00CE422F /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		BD08E73A16D107BE00CE422F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD08E73C16D107BE00CE422F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD08E73E16D107BE00CE422F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD08E74016D107BE00CE422F /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		BD08E74116D107BE00CE422F /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		BD08E74416D107BE00CE422F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController.xib; sourceTree = "<group>"; };
+		BD08E7B516D118C300CE422F /* SMWebEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWebEngine.h; sourceTree = "<group>"; };
+		BD08E7B616D118C300CE422F /* SMWebEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWebEngine.m; sourceTree = "<group>"; };
+		F906BD991AA12CD0000E0AC2 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		F906BD9B1AA12CD0000E0AC2 /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		F906BD9C1AA12CD0000E0AC2 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		F906BDA01AA12D37000E0AC2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F906BDA21AA12D47000E0AC2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F906BDA41AA12D4F000E0AC2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F906BDA61AA12D57000E0AC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F906BDA81AA12D5D000E0AC2 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		F906BDAA1AA12D63000E0AC2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F906BDAC1AA12D6B000E0AC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD08E72216D107BE00CE422F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F906BDAD1AA12D6B000E0AC2 /* SystemConfiguration.framework in Frameworks */,
+				F906BDAB1AA12D63000E0AC2 /* Security.framework in Frameworks */,
+				F906BDA91AA12D5D000E0AC2 /* QuickLook.framework in Frameworks */,
+				F906BDA71AA12D57000E0AC2 /* QuartzCore.framework in Frameworks */,
+				F906BDA51AA12D4F000E0AC2 /* MobileCoreServices.framework in Frameworks */,
+				F906BDA31AA12D47000E0AC2 /* CoreText.framework in Frameworks */,
+				BD08E72D16D107BE00CE422F /* CoreGraphics.framework in Frameworks */,
+				F906BDA11AA12D37000E0AC2 /* AssetsLibrary.framework in Frameworks */,
+				F906BD9D1AA12CD0000E0AC2 /* HockeySDK.framework in Frameworks */,
+				BD08E72916D107BE00CE422F /* UIKit.framework in Frameworks */,
+				BD08E72B16D107BE00CE422F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD08E71C16D107BE00CE422F = {
+			isa = PBXGroup;
+			children = (
+				BD08E72E16D107BE00CE422F /* crashy */,
+				BD08E72716D107BE00CE422F /* Frameworks */,
+				BD08E72616D107BE00CE422F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD08E72616D107BE00CE422F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD08E72516D107BE00CE422F /* crashy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD08E72716D107BE00CE422F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F906BDAC1AA12D6B000E0AC2 /* SystemConfiguration.framework */,
+				F906BDAA1AA12D63000E0AC2 /* Security.framework */,
+				F906BDA81AA12D5D000E0AC2 /* QuickLook.framework */,
+				F906BDA61AA12D57000E0AC2 /* QuartzCore.framework */,
+				F906BDA41AA12D4F000E0AC2 /* MobileCoreServices.framework */,
+				F906BDA21AA12D47000E0AC2 /* CoreText.framework */,
+				F906BDA01AA12D37000E0AC2 /* AssetsLibrary.framework */,
+				BD08E72816D107BE00CE422F /* UIKit.framework */,
+				BD08E72A16D107BE00CE422F /* Foundation.framework */,
+				BD08E72C16D107BE00CE422F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD08E72E16D107BE00CE422F /* crashy */ = {
+			isa = PBXGroup;
+			children = (
+				BD08E73716D107BE00CE422F /* SMAppDelegate.h */,
+				BD08E73816D107BE00CE422F /* SMAppDelegate.m */,
+				BD08E74016D107BE00CE422F /* SMViewController.h */,
+				BD08E74116D107BE00CE422F /* SMViewController.m */,
+				BD08E74316D107BE00CE422F /* SMViewController.xib */,
+				F906BD981AA12CD0000E0AC2 /* HockeySDK.embeddedframework */,
+				BD08E72F16D107BE00CE422F /* Supporting Files */,
+				BD08E7B516D118C300CE422F /* SMWebEngine.h */,
+				BD08E7B616D118C300CE422F /* SMWebEngine.m */,
+			);
+			path = crashy;
+			sourceTree = "<group>";
+		};
+		BD08E72F16D107BE00CE422F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD08E73016D107BE00CE422F /* crashy-Info.plist */,
+				BD08E73116D107BE00CE422F /* InfoPlist.strings */,
+				BD08E73416D107BE00CE422F /* main.m */,
+				BD08E73616D107BE00CE422F /* crashy-Prefix.pch */,
+				BD08E73A16D107BE00CE422F /* Default.png */,
+				BD08E73C16D107BE00CE422F /* Default@2x.png */,
+				BD08E73E16D107BE00CE422F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F906BD981AA12CD0000E0AC2 /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				F906BD991AA12CD0000E0AC2 /* HockeySDK.framework */,
+				F906BD9A1AA12CD0000E0AC2 /* Resources */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = SOURCE_ROOT;
+		};
+		F906BD9A1AA12CD0000E0AC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F906BD9B1AA12CD0000E0AC2 /* HockeySDK.xcconfig */,
+				F906BD9C1AA12CD0000E0AC2 /* HockeySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD08E72416D107BE00CE422F /* crashy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD08E74816D107BE00CE422F /* Build configuration list for PBXNativeTarget "crashy" */;
+			buildPhases = (
+				BD08E72116D107BE00CE422F /* Sources */,
+				BD08E72216D107BE00CE422F /* Frameworks */,
+				BD08E72316D107BE00CE422F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crashy;
+			productName = crashy;
+			productReference = BD08E72516D107BE00CE422F /* crashy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD08E71D16D107BE00CE422F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cesare Rocchi";
+			};
+			buildConfigurationList = BD08E72016D107BE00CE422F /* Build configuration list for PBXProject "crashy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD08E71C16D107BE00CE422F;
+			productRefGroup = BD08E72616D107BE00CE422F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD08E72416D107BE00CE422F /* crashy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD08E72316D107BE00CE422F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F906BD9E1AA12CD0000E0AC2 /* HockeySDK.xcconfig in Resources */,
+				BD08E73316D107BE00CE422F /* InfoPlist.strings in Resources */,
+				F906BD9F1AA12CD0000E0AC2 /* HockeySDKResources.bundle in Resources */,
+				BD08E73B16D107BE00CE422F /* Default.png in Resources */,
+				BD08E73D16D107BE00CE422F /* Default@2x.png in Resources */,
+				BD08E73F16D107BE00CE422F /* Default-568h@2x.png in Resources */,
+				BD08E74516D107BE00CE422F /* SMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD08E72116D107BE00CE422F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08E73516D107BE00CE422F /* main.m in Sources */,
+				BD08E73916D107BE00CE422F /* SMAppDelegate.m in Sources */,
+				BD08E74216D107BE00CE422F /* SMViewController.m in Sources */,
+				BD08E7B716D118C300CE422F /* SMWebEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD08E73116D107BE00CE422F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08E73216D107BE00CE422F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD08E74316D107BE00CE422F /* SMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08E74416D107BE00CE422F /* en */,
+			);
+			name = SMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD08E74616D107BE00CE422F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD08E74716D107BE00CE422F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD08E74916D107BE00CE422F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crashy/crashy-Prefix.pch";
+				INFOPLIST_FILE = "crashy/crashy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD08E74A16D107BE00CE422F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crashy/crashy-Prefix.pch";
+				INFOPLIST_FILE = "crashy/crashy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD08E72016D107BE00CE422F /* Build configuration list for PBXProject "crashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08E74616D107BE00CE422F /* Debug */,
+				BD08E74716D107BE00CE422F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD08E74816D107BE00CE422F /* Build configuration list for PBXNativeTarget "crashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08E74916D107BE00CE422F /* Debug */,
+				BD08E74A16D107BE00CE422F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD08E71D16D107BE00CE422F /* Project object */;
+}
