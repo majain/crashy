@@ -23,7 +23,7 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"6efe53ff20dfd037f9a96b2fae0d1f76"];
+    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"9fce9165eec8f0c283532e25d1132c09"];
     [[BITHockeyManager sharedHockeyManager] startManager];
     [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
     

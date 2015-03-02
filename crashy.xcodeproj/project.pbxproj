@@ -177,6 +177,7 @@
 				BD08E72116D107BE00CE422F /* Sources */,
 				BD08E72216D107BE00CE422F /* Frameworks */,
 				BD08E72316D107BE00CE422F /* Resources */,
+				F961F7331AA459FF00C554C5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -230,6 +231,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F961F7331AA459FF00C554C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD08E72116D107BE00CE422F /* Sources */ = {
